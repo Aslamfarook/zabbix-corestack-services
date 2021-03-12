@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>5.0</version>
+    <date>2021-03-12T06:20:49Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>Linux template</template>
+            <name>Linux template</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <items>
+                <item>
+                    <name>access_assessment_daemon cpu utilization</name>
+                    <key>access-assessment-cpu</key>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>access-governance cpu percentage</name>
+                    <key>access-governance-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>access_assessment_daemon-check</name>
+                    <key>access_assessment_daemoncheck</key>
+                </item>
+                <item>
+                    <name>access_governance_daemon-check</name>
+                    <key>access_governance_daemoncheck</key>
+                </item>
+                <item>
+                    <name>account-subscriptioncheck</name>
+                    <key>accountsubscriptioncheck</key>
+                </item>
+                <item>
+                    <name>account_subscription cpu percentage</name>
+                    <key>account_subscription-cpu</key>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>alertml_check</name>
+                    <key>alertmlcheck</key>
+                </item>
+                <item>
+                    <name>alert_queuepoller_check</name>
+                    <key>alertqueuepollercheck</key>
+                </item>
+                <item>
+                    <name>alert_ml cpu percentage</name>
+                    <key>alert_ml-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>alert_queue_poller cpu percentage</name>
+                    <key>alert_queue_poller-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>assessment-executor cpu percentage</name>
+                    <key>assessment-executor-cpu</key>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>assessment-executor-mem percentage</name>
+                    <key>assessment-executor-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>assessment-framework cpu percentage</name>
+                    <key>assessment-framework-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>assessment-framework-mem</name>
+                    <key>assessment-framework-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>assessment_executor-check</name>
+                    <key>assessment_executorcheck</key>
+                </item>
+                <item>
+                    <name>assessment_framework-check</name>
+                    <key>assessment_frameworkcheck</key>
+                </item>
+                <item>
+                    <name>broker cpu percentage</name>
+                    <key>broker-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>broker-mem percentage</name>
+                    <key>broker-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>Broker-Check</name>
+                    <key>brokercheck</key>
+                    <valuemap>
+                        <name>Dell Open Manage System Status</name>
+                    </valuemap>
+                </item>
+                <item>
+                    <name>budget-daemon cpu percentage</name>
+                    <key>budget-daemon-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>budget-daemon-mem percentage</name>
+                    <key>budget-daemon-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>budget_daemon-check</name>
+                    <key>budget_daemoncheck</key>
+                </item>
+                <item>
+                    <name>cloudops cpu percentage</name>
+                    <key>cloudops-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>cloudops-mem percentage</name>
+                    <key>cloudops-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>cloudops_check</name>
+                    <key>cloudopscheck</key>
+                </item>
+                <item>
+                    <name>compliance cpu percentage</name>
+                    <key>compliance-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>compliance-mem percentage</name>
+                    <key>compliance-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>compliance_bot_check</name>
+                    <key>compliancebotcheck</key>
+                </item>
+                <item>
+                    <name>compliance-check</name>
+                    <key>compliancecheck</key>
+                </item>
+                <item>
+                    <name>compliance-crawler-check</name>
+                    <key>compliancecrawlercheck</key>
+                </item>
+                <item>
+                    <name>compliancere-fresh-check</name>
+                    <key>compliancerefreshcheck</key>
+                </item>
+                <item>
+                    <name>compliance_bot cpu percentage</name>
+                    <key>compliance_bot-cpu</key>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>compliance_bot-mem percentage</name>
+                    <key>compliance_bot-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>compliance_crawler cpu percentage</name>
+                    <key>compliance_crawler-cpu</key>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>compliance_crawler-mem percentage</name>
+                    <key>compliance_crawler-mem</key>
+                    <history>0</history>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>compliance_refresh cpu percentage</name>
+                    <key>compliance_refresh-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>compliance_refresh-mem percentage</name>
+                    <key>compliance_refresh-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>congress cpu percentage</name>
+                    <key>congress-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>congress-mem percentage</name>
+                    <key>congress-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>congress-check</name>
+                    <key>congresscheck</key>
+                </item>
+                <item>
+                    <name>corestack-discovery percentage</name>
+                    <key>corestack-discovery</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>corestackidentity-check</name>
+                    <key>corestackidentitycheck</key>
+                </item>
+                <item>
+                    <name>cost-analytics-check</name>
+                    <key>costanalyticscheck</key>
+                </item>
+                <item>
+                    <name>cost_analytics cpu percentage</name>
+                    <key>cost_analytics-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>cost_analytics-mem percentage</name>
+                    <key>cost_analytics-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>custom_workflow_manager_check</name>
+                    <key>customworkflowmanagercheck</key>
+                </item>
+                <item>
+                    <name>custom_workflow_manager cpu percentage</name>
+                    <key>custom_workflow_manager-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>custom_workflow_manager-mem percentage</name>
+                    <key>custom_workflow_manager-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>finance cpu percentage</name>
+                    <key>finance-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>finance-mem percentage</name>
+                    <key>finance-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>finance-check</name>
+                    <key>financecheck</key>
+                </item>
+                <item>
+                    <name>governance cpu percentage</name>
+                    <key>governance-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>governance-mem percentage</name>
+                    <key>governance-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>governance-check</name>
+                    <key>governancecheck</key>
+                </item>
+                <item>
+                    <name>governance-daemon-check</name>
+                    <key>governancedaemoncheck</key>
+                </item>
+                <item>
+                    <name>governance_daemon cpu percentage</name>
+                    <key>governance_daemon-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>governance_daemon-mem percentage</name>
+                    <key>governance_daemon-mem</key>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>governance_validation_daemon-check</name>
+                    <key>governance_validation_daemoncheck</key>
+                </item>
+                <item>
+                    <name>heatapicfn-check</name>
+                    <key>heatapicfncheck</key>
+                </item>
+                <item>
+                    <name>heatapi-check</name>
+                    <key>heatapicheck</key>
+                </item>
+                <item>
+                    <name>heatapicloudwatch-check</name>
+                    <key>heatapicloudwatchcheck</key>
+                </item>
+                <item>
+                    <name>heatstack cpu percentage</name>
+                    <key>heatstack-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heatstack-mem percentage</name>
+                    <key>heatstack-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heatstack-check</name>
+                    <key>heatstackcheck</key>
+                </item>
+                <item>
+                    <name>heat_api cpu percentage</name>
+                    <key>heat_api-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heat_api-mem percentage</name>
+                    <key>heat_api-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heat_api_cfn cpu percentage</name>
+                    <key>heat_api_cfn-cpu</key>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heat_api_cfn-mem percentage</name>
+                    <key>heat_api_cfn-mem</key>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heat_api_cloudwatch cpu percentage</name>
+                    <key>heat_api_cloudwatch-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>heat_api_cloudwatch-mem percentage</name>
+                    <key>heat_api_cloudwatch-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>corestack-identity cpu percentage</name>
+                    <key>identity-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>identity-mem percentage</name>
+                    <key>identity-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>instance-status-check</name>
+                    <key>instancestatuscheck</key>
+                </item>
+                <item>
+                    <name>instance_status cpu percentage</name>
+                    <key>instance_status-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>instance_status-mem percentage</name>
+                    <key>instance_status-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>keystone cpu percentage</name>
+                    <key>keystone-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>keystone-mem percentage</name>
+                    <key>keystone-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>keystone-check</name>
+                    <key>keystonecheck</key>
+                </item>
+                <item>
+                    <name>metrics-to-anomalydetection-daemon cpu percentage</name>
+                    <key>metrics-to-anomalydetection-daemon-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>metrics-to-anomalydetection-daemon-mem percentage</name>
+                    <key>metrics-to-anomalydetection-daemon-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>metrics_to_anomalydetection-check</name>
+                    <key>metrics_to_anomalydetectioncheck</key>
+                </item>
+                <item>
+                    <name>metric-value-storage-check</name>
+                    <key>metricvaluestoragecheck</key>
+                    <delay>60m</delay>
+                </item>
+                <item>
+                    <name>metric_value_storage cpu percentage</name>
+                    <key>metric_value_storage-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>metric_value_storage-mem percentage</name>
+                    <key>metric_value_storage-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>operation-assessment-daemon cpu percentage</name>
+                    <key>operation-assessment-daemon-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>operation-assessment-daemon-mem percentage</name>
+                    <key>operation-assessment-daemon-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>operations-governance-bot cpu percentage</name>
+                    <key>operations-governance-bot-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>operations-governance-bot-mem percentage</name>
+                    <key>operations-governance-bot-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>operations-governance-service-mem percentage</name>
+                    <key>operations-governance-service-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>operations_governance-check</name>
+                    <key>operations_governancecheck</key>
+                </item>
+                <item>
+                    <name>operations_governance_bot-check</name>
+                    <key>operations_governance_botcheck</key>
+                </item>
+                <item>
+                    <name>operation_assessment_daemon-check</name>
+                    <key>operation_assessment_daemoncheck</key>
+                </item>
+                <item>
+                    <name>post_provisioning_worker cpu percentage</name>
+                    <key>post_provisioning_worker-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>post_provisioning_worker-mem percentage</name>
+                    <key>post_provisioning_worker-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>queue_poller cpu percentage</name>
+                    <key>queue_poller-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>queue_poller-mem percentage</name>
+                    <key>queue_poller-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>request_updater-mem percentage</name>
+                    <key>request_updater-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-audit-log-sync cpu percentage</name>
+                    <key>resource-audit-log-sync-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-audit-log-sync-mem percentage</name>
+                    <key>resource-audit-log-sync-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-dashboard cpu percentage</name>
+                    <key>resource-dashboard-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-dashboard-mem percentage</name>
+                    <key>resource-dashboard-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-deep-discovery cpu percentage</name>
+                    <key>resource-deep-discovery-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-deep-discovery-mem percentage</name>
+                    <key>resource-deep-discovery-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-dependency-sync cpu percentage</name>
+                    <key>resource-dependency-sync-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-dependency-sync-mem percentage</name>
+                    <key>resource-dependency-sync-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-discovery-mem percentage</name>
+                    <key>resource-discovery-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-lock-sync cpu percentage</name>
+                    <key>resource-lock-sync-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-lock-sync-mem percentage</name>
+                    <key>resource-lock-sync-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-tag-sync cpu percentage</name>
+                    <key>resource-tag-sync-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-tag-sync-mem percentage</name>
+                    <key>resource-tag-sync-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource-discovery-check</name>
+                    <key>resourcediscoverycheck</key>
+                </item>
+                <item>
+                    <name>resourceinventory-check</name>
+                    <key>resourceinventorycheck</key>
+                </item>
+                <item>
+                    <name>resource_audit_log_sync-check</name>
+                    <key>resource_audit_log_synccheck</key>
+                </item>
+                <item>
+                    <name>resource_dashboard-check</name>
+                    <key>resource_dashboardcheck</key>
+                </item>
+                <item>
+                    <name>resource_deep_discovery-check</name>
+                    <key>resource_deep_discoverycheck</key>
+                </item>
+                <item>
+                    <name>resource_dependency_sync-check</name>
+                    <key>resource_dependency_synccheck</key>
+                </item>
+                <item>
+                    <name>resource_inventory cpu percentage</name>
+                    <key>resource_inventory-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource_inventory-mem percentage</name>
+                    <key>resource_inventory-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource_lock_sync-check</name>
+                    <key>resource_lock_synccheck</key>
+                </item>
+                <item>
+                    <name>resource_tag_sync-check</name>
+                    <key>resource_tag_synccheck</key>
+                </item>
+                <item>
+                    <name>security-assessment-daemon cpu percentage</name>
+                    <key>security-assessment-daemon-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>security-assessment-daemon-mem percentage</name>
+                    <key>security-assessment-daemon-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>security_assessment_daemon-check</name>
+                    <key>security_assessment_daemoncheck</key>
+                </item>
+                <item>
+                    <name>service_resource_transaction_sync-check</name>
+                    <key>service_resource_transaction_synccheck</key>
+                </item>
+                <item>
+                    <name>smtp cpu percentage</name>
+                    <key>smtp-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>smtp-mem percentage</name>
+                    <key>smtp-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>tenant_master_subscription_status cpu percentage</name>
+                    <key>tenant_master_subscription_status-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>tenant_master_subscription_status-mem percentage</name>
+                    <key>tenant_master_subscription_status-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>resource_shallow_discovery cpu percentage</name>
+                    <key>test</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>zabbix_governance cpu percentage</name>
+                    <key>zabbix_governance-cpu</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+                <item>
+                    <name>zabbix_governance-mem percentage</name>
+                    <key>zabbix_governance-mem</key>
+                    <value_type>FLOAT</value_type>
+                    <units>%</units>
+                </item>
+            </items>
+        </template>
+    </templates>
+    <value_maps>
+        <value_map>
+            <name>Dell Open Manage System Status</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Other</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Unknown</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>OK</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>NonCritical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>Critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>NonRecoverable</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>
